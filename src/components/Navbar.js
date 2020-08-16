@@ -1,26 +1,27 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, Container } from "react-bootstrap";
 import styled from "styled-components";
 
 const Styles = styled.div`
   .navbar {
-    background-color: red;
+    background-color: white;
   }
 
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: white;
+    color: black;
 
     &:hover {
-      color: red;
+      text-decoration: underline;
+      color: rgb(255, 26, 26);
     }
   }
 `;
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar expand="lg">
-      <Navbar.Brand href="/">Code Life</Navbar.Brand>
+    <Navbar expand="lg" className="border-bottom">
+      <Navbar.Brand>Taha Zulfiqar</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
