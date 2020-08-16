@@ -6,6 +6,7 @@ import { Contact } from "./Contact";
 import { NoMatch } from "./NoMatch";
 import { Layout } from "./components/Layout";
 import { NavigationBar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 //import "./App.css";
 // <Route path="/Resume" component={resume} />
@@ -28,6 +29,7 @@ class App extends React.Component {
             </Switch>
           </Router>
         </Layout>
+        <Footer />
       </React.Fragment>
     );
   }

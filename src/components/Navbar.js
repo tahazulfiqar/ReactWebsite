@@ -26,7 +26,7 @@ export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg" className="border-bottom">
       <Container>
-        <Navbar.Brand>Taha Zulfiqar</Navbar.Brand>
+        <Navbar.Brand href="/">Taha Zulfiqar</Navbar.Brand>
       </Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
