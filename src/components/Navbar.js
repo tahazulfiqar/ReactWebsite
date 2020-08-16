@@ -7,9 +7,13 @@ const Styles = styled.div`
     background-color: white;
   }
 
-  .navbar-brand,
+  .navbar-brand {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .navbar-nav .nav-link {
-    color: black;
+    font-family: "Majesti Banner", "Georgia", "Times New Roman";
 
     &:hover {
       text-decoration: underline;
@@ -21,7 +25,9 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="lg" className="border-bottom">
-      <Navbar.Brand>Taha Zulfiqar</Navbar.Brand>
+      <Container>
+        <Navbar.Brand>Taha Zulfiqar</Navbar.Brand>
+      </Container>
       <Navbar.Toggle aria-controls="basic-navbar-nav"></Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
