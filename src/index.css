@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.content-title {
+  font-size: 1.25rem;
+}
+
 .content-section {
   color: black;
 }

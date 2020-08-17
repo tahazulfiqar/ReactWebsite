@@ -1,9 +1,16 @@
 import React, { Component } from "react";
+import "./index.css";
 
 export const About = () => (
-  <div>
-    <h2>About Me</h2>
-    <p>sgfasgasgaga</p>
-    <p>asgasdg asgasgasg asgasgasg asgasgasg</p>
+  <div className="content-container">
+    <h4 className="content-title">About</h4>
+    <div className="content-section">
+      <p>
+        I've graduated from the{" "}
+        <a href="https://www.utoronto.ca/">University of Toronto</a> with a{" "}
+        <a href="https://web.cs.toronto.edu/">B.S. in Computer Science</a> as of
+        Winter 2020.
+      </p>
+    </div>
   </div>
 );

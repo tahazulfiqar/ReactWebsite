@@ -3,7 +3,7 @@ import "./index.css";
 
 export const Home = () => (
   <div className="content-container">
-    <h2 className="content-title">Welcome</h2>
+    <h4 className="content-title">Welcome</h4>
     <div className="content-section">
       <p>
         I've graduated from the{" "}

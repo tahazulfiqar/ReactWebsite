@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import styled from "styled-components";
+import pdf from "../assets/Taha_Zulfiqar_Resume.pdf";
 
 const Styles = styled.div`
   .navbar {
@@ -35,10 +36,12 @@ export const NavigationBar = () => (
             <Nav.Link href="/">Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/About">About</Nav.Link>
+            <Nav.Link href="/Contact">Contact</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href="/Contact">Contact</Nav.Link>
+            <Nav.Link href={pdf} target="_blank" rel="noopener noreferrer">
+              Resume
+            </Nav.Link>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>

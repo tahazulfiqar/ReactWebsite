@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 
 export const Contact = () => (
-  <div>
-    <h2>Contact</h2>
-    <p>Yo yo yo reach out to me e-mail here</p>
-    <p>Stop don't reach out to me</p>
+  <div className="content-container">
+    <h4 className="content-title">Contact</h4>
+    <div className="content-section">
+      <p>
+        I've graduated from the{" "}
+        <a href="https://www.utoronto.ca/">University of Toronto</a> with a{" "}
+        <a href="https://web.cs.toronto.edu/">B.S. in Computer Science</a> as of
+        Winter 2020.
+      </p>
+    </div>
   </div>
 );

@@ -5,28 +5,28 @@ import { SocialIcon } from "react-social-icons";
 export const Footer = () => {
   return (
     <div
+      className="border-top"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        padding: "1%",
       }}
     >
-      <div>
+      <div style={{ paddingRight: 5 }}>
         <SocialIcon
           url="https://www.linkedin.com/in/tahazulfiqar/"
-          style={{ height: 35, width: 35 }}
+          style={{ height: 45, width: 45 }}
           bgColor="black"
-        />{" "}
-        <a href="https://www.linkedin.com/in/tahazulfiqar/">
-          linkedin.com/in/tahazulfiqar
-        </a>
-        {"     "} {"     "} {"     "} {"     "} {"     "} {"     "} {"     "}
+        />
         <SocialIcon
           url="https://github.com/tahazulfiqar"
-          style={{ height: 35, width: 35 }}
+          style={{
+            height: 45,
+            width: 45,
+          }}
           bgColor="Black"
-        />{" "}
-        <a href="https://github.com/tahazulfiqar">github.com/tahazulfiqar</a>
+        />
       </div>
     </div>
   );
