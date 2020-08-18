@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
 //import { About } from "./About";
-import { Contact } from "./Contact";
 import { NoMatch } from "./NoMatch";
 import { Layout } from "./components/Layout";
 import { NavigationBar } from "./components/Navbar";
@@ -23,7 +22,6 @@ class App extends React.Component {
           <Router>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
           </Router>

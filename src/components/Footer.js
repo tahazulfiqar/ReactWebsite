@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { SocialIcon } from "react-social-icons";
 
+//          Copyright &copy;{new Date().getFullYear()} Taha Zulfiqar
+
 export const Footer = () => {
   return (
     <div>
@@ -30,9 +32,11 @@ export const Footer = () => {
         </div>
       </div>
       <div className="row text-center">
-        <p className="col-sm">
+        <p style={{ fontSize: 10 }} className="col-sm">
           {" "}
-          Copyright &copy;{new Date().getFullYear()} Taha Zulfiqar
+          Designed and built by Taha Zulfiqar using{" "}
+          <a href="https://reactjs.org/">React</a>, hosted via{" "}
+          <a href="https://aws.amazon.com/amplify/">AWS Amplify</a>.
         </p>
       </div>
     </div>
