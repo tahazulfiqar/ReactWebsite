@@ -16,9 +16,7 @@ export const Home = () => (
         <p>
           {" "}
           I am a Software System Designer at{" "}
-          <a href="https://www.amd.com/">Advanced Micro Devices</a>. I
-          previously worked at <a href="https://www.milacron.com/">Milacron</a>{" "}
-          as an IT Help Desk Intern.
+          <a href="https://www.amd.com/">Advanced Micro Devices</a>. 
         </p>
 
         <p>
@@ -30,14 +28,11 @@ export const Home = () => (
         </p>
 
         <p>
-          I am interested in (and have experience with) Automated Testing,
-          Artificial Intelligence/Machine Learning, Cloud Computing and
-          Full-Stack Development.
+          I am interested in Software Development, AI and Automated Testing. I am experienced with Python (scripting, automation, computer vision and machine learning), web development and Cloud Computing (AWS and Azure).
         </p>
 
         <p>
-          My current hobbies include cooking, playing volleyball, web
-          development and gaming.{" "}
+          My current hobbies include playing basketball, reading fantasy novels and gaming.{" "}
         </p>
 
         <p>
