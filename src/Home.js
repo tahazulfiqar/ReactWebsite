@@ -32,10 +32,6 @@ export const Home = () => (
         </p>
 
         <p>
-          My current hobbies include playing basketball, reading fantasy novels and gaming.{" "}
-        </p>
-
-        <p>
           If you would like to get in touch, please reach out to me via{" "}
           <a href="mailto:taha.zulfiqar@mail.utoronto.ca">e-mail</a>. You can
           also download a copy of my{" "}
